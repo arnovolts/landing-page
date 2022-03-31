@@ -35,6 +35,10 @@ body{
     opacity: 0.7;
 }
 
+.white-border{
+    border: 2px solid #F9FAF8;
+}
+
 /* || Header rules */
 .header{
     background-color: #1F2937;
@@ -139,4 +143,26 @@ figcaption{
     font-size: 22px;
     font-weight: 600;
     text-align: right;
+}
+
+/* || Call To Action Rules */
+.call-to-action{
+    padding: 100px 0;
+}
+
+.card{
+    background-color: #3882F6;
+    display: flex;
+    color: #E5E7EB;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 55px 120px;
+}
+
+.card > .btn{
+    flex: 0 0 auto;
+}
+
+.call-to-action-heading{
+    color: #F9FAF8;
 }
