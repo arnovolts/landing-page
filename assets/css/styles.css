@@ -84,3 +84,35 @@ body{
     font-size: 18px;
     margin-bottom: 16px;
 }
+
+/* || Info Rules */
+.info-heading{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 54px 0;
+    text-align: center;
+
+}
+
+.info-items{
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+    gap: 49px;
+}
+
+.info-item{
+    text-align: center;
+}
+
+.info-img{
+    border-radius: 8px;
+}
+
+.info-text{
+    font-size: 18px;
+    margin-top: 8px;
+    width: 167px;
+}
