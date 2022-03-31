@@ -39,6 +39,29 @@ body{
     border: 2px solid #F9FAF8;
 }
 
+.rectangle{
+    background-color: #6D747D;
+    height: 236px;
+    position: relative;
+    width: 521px;
+}
+
+.rectangle::after{
+    color: #E5E7EB;
+    content: "this is a placeholder for an image";
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box{
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+    height: 166px;
+    width: 167px;
+}
+
 /* || Header rules */
 .header{
     background-color: #1F2937;
@@ -109,10 +132,6 @@ body{
 
 .info-item{
     text-align: center;
-}
-
-.info-img{
-    border-radius: 8px;
 }
 
 .info-text{
