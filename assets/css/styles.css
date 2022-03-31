@@ -20,15 +20,17 @@ body{
     margin: 0 auto;
 }
 
-.flex{
-    display: flex;
-    justify-content: space-between;
-}
 
 /* || Header rules */
 .header{
     background-color: #1F2937;
     padding: 22px 0;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
