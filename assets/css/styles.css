@@ -92,6 +92,10 @@ body{
     text-decoration: none;
 }
 
+.menu-items a:hover{
+    opacity: 0.5;
+}
+
 /* || Hero rules */
 .hero{
     background-color: #1F2937;
