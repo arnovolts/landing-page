@@ -81,11 +81,15 @@ body{
 }
 
 .menu{
-    color: #E5E7EB;
     display: flex;
     font-size: 18px;
     gap: 16px;
     list-style: none;
+}
+
+.menu-items a{
+    color: #E5E7EB;
+    text-decoration: none;
 }
 
 /* || Hero rules */
