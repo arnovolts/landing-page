@@ -166,3 +166,12 @@ figcaption{
 .call-to-action-heading{
     color: #F9FAF8;
 }
+
+/* || Footer */
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 42px 0;
+    text-align: center;
+
+}
